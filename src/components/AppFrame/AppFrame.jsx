@@ -19,7 +19,7 @@ const AppFrame = ({children}) => {
             <Link component={LinkRouter} to='/main' color='inherit' aria-label='menu'>
               <IconContext.Provider value={{size: '2em'}}>
                 <WiDaySunny />
-              </IconContext.Provider >
+              </IconContext.Provider>
             </Link>
           </IconButton>
           <Typography variant='h6' color='inherit'>
